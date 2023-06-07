@@ -1,0 +1,30 @@
+1.  NodeJS kurulur
+    download link : https://nodejs.org/en/download/
+
+2.  istediginiz bir lokaysonda bir klasör olusturun ve o klasörde windows cmd (konsol) acin
+
+3.  cmd ekraninsa asagidaki komutu calistirin
+    > npm install -g json-server
+
+4.  örnek .json dosyalari mocJSONServer klasöründe mevcuttur
+
+5. konsolda asagidaki komutu calistirin  (json-server --watch [fileName].json)
+    > json-server --watch db.json
+
+    calistirma sonrasinda asagidaki bilgileri görürseniz
+    json-server calisiyordur
+    ------------------------------------------------
+    \{^_^}/ hi!
+
+      Loading db.json
+      Done
+
+      Resources
+      http://localhost:3000/posts
+      http://localhost:3000/comments
+      http://localhost:3000/profile
+
+      Home
+      http://localhost:3000
+      --------------------------------------------------
+      yukaridaki linkler ile moc json-server a ulasabilirsiniz.

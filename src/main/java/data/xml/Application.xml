@@ -1,0 +1,17 @@
+<application>
+    <name>name</name>
+    <url>https://url</url>
+    <users>
+        <user>
+            <type>admin</type>
+            <username>adminusername</username>
+            <password>adminpass</password>
+        </user>
+        <user>
+            <type>user1</type>
+            <username>user1username</username>
+            <password>user2pass</password>
+        </user>
+    </users>
+
+</application>

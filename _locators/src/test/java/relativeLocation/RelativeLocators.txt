@@ -1,0 +1,24 @@
+above
+below
+toLeftOf
+toRightOf
+near
+
+
+
+above
+By emailLocator = RelativeLocator.with(By.tagName("input")).above(By.id("password"));
+
+
+By passwordLocator = RelativeLocator.with(By.tagName("input")).below(By.id("email"));
+
+By cancelLocator = RelativeLocator.with(By.tagName("button")).toLeftOf(By.id("submit"));
+
+
+By submitLocator = RelativeLocator.with(By.tagName("button")).toRightOf(By.id("cancel"));
+
+
+By emailLocator = RelativeLocator.with(By.tagName("input")).near(By.id("lbl-email"));
+
+Zincirleme Relative Locators
+By submitLocator = RelativeLocator.with(By.tagName("button")).below(By.id("email")).toRightOf(By.id("cancel"));

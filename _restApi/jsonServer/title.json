@@ -1,0 +1,13 @@
+{
+  "title": {
+    "title": "My Title",
+    "_links": {
+      "self": {
+        "href": "/title"
+      },
+      "next": {
+        "href": "/title?page=2"
+      }
+    }
+  }
+}

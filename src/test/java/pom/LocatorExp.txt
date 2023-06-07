@@ -1,0 +1,9 @@
+Locatorlar nerede tutulur
+
+
+1.  PageFactory -> @FindBy, @FindBys, @FindAll
+    Class PageFactory.initElements(driver, [this | ClassName.class])
+
+    Element cagrildiginda olusturuluyor.
+
+2.  By ile tuttariz

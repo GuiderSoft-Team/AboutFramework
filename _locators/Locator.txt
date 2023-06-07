@@ -1,0 +1,20 @@
+XPATH
+
+->  parent'i div olan buttonlar
+    //button[./parent::div]
+
+->  altinda, text'i 'yazi' ve ilk baglisi (child) a'ya sahip div'ler
+    //div[./a[.='yazi']]
+
+->  altinda, text'i 'yazi' ve herhangi bir yerde a'ya sahip div'ler
+    //div[.//a[.='yazi']]
+
+->  //div[./ancestor::div[2]]
+->
+->
+->
+->
+->
+->
+->
+->
